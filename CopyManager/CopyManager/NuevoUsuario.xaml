@@ -1,0 +1,43 @@
+﻿<Window x:Class="CopyManager.NuevoUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CopyManager"
+        mc:Ignorable="d"
+        Title="Copy Manager" Height="400" Width="500" ResizeMode="NoResize">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="#FF4E7C2F" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Grid>
+        <Border CornerRadius="20" Margin="10">
+            <Border.Background>
+                <ImageBrush ImageSource="https://i.pinimg.com/474x/fb/9b/ab/fb9bab6fa5d773dbd222fc3de1b5a2a8.jpg" Stretch="UniformToFill" Opacity="0.95"/>
+            </Border.Background>
+            <StackPanel Margin="20">
+                <Label Content="Crear Usuario" Foreground="white" FontSize="32" HorizontalAlignment="Center" FontFamily="Impact" />
+                <Separator/>
+                <Label Name="user" Content="Usuario" Foreground="White" FontSize="18" FontFamily="Franklin Gothic Demi"/>
+                <TextBox Name="Usuario" Background="#545d6a" Foreground="White" FontSize="18"/>
+                <Label Name="password" Content="Contraseña" Foreground="White" FontSize="18" FontFamily="Franklin Gothic Demi"/>
+                <TextBox Name="Contraseña" Background="#545d6a" Foreground="White" FontSize="18"/>
+                <Grid x:Name="grid1" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Name="group" Content="Grupo:" Grid.Column="0" HorizontalAlignment="Left" Grid.Row="0" VerticalAlignment="Center" Foreground="White" FontSize="18" FontFamily="Franklin Gothic Demi"/>
+                    <ComboBox x:Name="grupoComboBox" Grid.Column="0" HorizontalAlignment="Left" Grid.Row="1" Height="Auto" VerticalAlignment="Center" Width="434" />
+                </Grid>
+                <Button Name="enviar" Content="Agregar" Margin="60 10" Background="#545d6a" Foreground="White" FontSize="18" Click="enviar_Click" Height="28" IsDefault="True" FontFamily="Franklin Gothic Demi" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="CopyManager.BBDDSeleccionada"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CopyManager"
+        mc:Ignorable="d"
+        Title="Copy Manager" Height="450" Width="500" ResizeMode="NoResize">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="#FFB6AE0A" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Border CornerRadius="20" Margin="10">
+        <Border.Background>
+            <ImageBrush ImageSource="https://p4.wallpaperbetter.com/wallpaper/659/311/729/gears-mechanism-nuts-steampunk-wallpaper-preview.jpg" Stretch="UniformToFill" Opacity="0.9"/>
+        </Border.Background>
+        <Grid>
+            <DataGrid Name="baseDataGrid" Height="200" Margin="10,30,10,0" VerticalAlignment="Top"/>
+            <Button Name="delete" Content="Eliminar" HorizontalAlignment="Left" Margin="88,291,0,0" VerticalAlignment="Top" Width="100" Height="23" Click="delete_Click" Background="#FF959519" BorderBrush="#FF848F1A" FontFamily="Franklin Gothic Demi" FontSize="14"/>
+            <Button Name="back" Content="Volver" HorizontalAlignment="Left" Margin="316,291,0,0" VerticalAlignment="Top" Width="100" Height="23" Click="back_Click" Background="#FF959519" BorderBrush="#FF848F1A" FontFamily="Franklin Gothic Demi" FontSize="14"/>
+        </Grid>
+    </Border>
+</Window>

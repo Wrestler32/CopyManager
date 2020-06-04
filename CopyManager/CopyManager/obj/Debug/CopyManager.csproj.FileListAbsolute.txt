@@ -1,0 +1,28 @@
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\bin\Debug\CopyManager.exe.config
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\bin\Debug\CopyManager.exe
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\bin\Debug\CopyManager.pdb
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\MainWindow.g.cs
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\Ventana LogIn.g.cs
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\App.g.cs
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopyManager_MarkupCompile.cache
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopyManager_MarkupCompile.lref
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\MainWindow.baml
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\Ventana LogIn.baml
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopyManager.g.resources
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopyManager.Properties.Resources.resources
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopyManager.csproj.GenerateResource.cache
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopyManager.exe
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopyManager.pdb
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\bin\Debug\Users.mdf
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\bin\Debug\Users_log.ldf
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopyManager_Content.g.cs
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\NuevoUsuario.g.cs
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\NuevoUsuario.baml
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\BorrarUsuario.g.cs
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\BorrarUsuario.baml
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopiasBBDD.g.cs
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopiasBBDD.baml
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\BBDDSeleccionada.g.cs
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\BBDDSeleccionada.baml
+C:\Users\Daniel\source\repos\CopyManager\CopyManager\obj\Debug\CopyManager.csprojAssemblyReference.cache

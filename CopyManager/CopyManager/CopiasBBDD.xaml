@@ -1,0 +1,44 @@
+﻿<Window x:Class="CopyManager.CopiasBBDD"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CopyManager"
+        mc:Ignorable="d"
+        Title="Copy Manager" Height="450" Width="600" ResizeMode="NoResize">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="#FFB6AE0A" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Border CornerRadius="20" Margin="10">
+        <Border.Background>
+            <ImageBrush ImageSource="https://p4.wallpaperbetter.com/wallpaper/659/311/729/gears-mechanism-nuts-steampunk-wallpaper-preview.jpg" Stretch="UniformToFill" Opacity="0.85"/>
+        </Border.Background>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="240"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Label Name="tittle" Content="COPIAS DE SEGURIDAD" FontSize="22" Foreground="White"  Margin="173,17,161,10" FontFamily="Impact" HorizontalContentAlignment="Center"/>
+            <Button Name="volver" Content="Volver" Width="124" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Left" Margin="230,26,0,-8" Click="volver_Click" Background="#FF959519" BorderBrush="#FF848F1A" FontFamily="Franklin Gothic Demi" FontSize="14"/>
+            <Button Name="verBase" Content="Ver Información" Width="120" Height="23" Grid.Row="1" HorizontalAlignment="Right" Margin="0,206,348,12" Click="verBase_Click" Background="#FF959519" BorderBrush="#FF848F1A" FontFamily="Franklin Gothic Demi" FontSize="14"/>
+
+            <Label Name="seeBackup" Content="Ver copias" HorizontalAlignment="Left" Margin="104,10,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="20" FontFamily="Franklin Gothic Demi" HorizontalContentAlignment="Center"/>
+            <Label Name="addNew" Content="Crear nueva" HorizontalAlignment="Left" Margin="377,10,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="20" FontFamily="Franklin Gothic Demi" HorizontalContentAlignment="Center"/>
+            <TextBox Name="origenText" Height="28" Margin="308,62,1,0" Grid.Row="1" TextWrapping="Wrap" Text="Origen" VerticalAlignment="Top"/>
+            <Button Name="crearCopia"  Content="Crear copia" HorizontalAlignment="Left" Margin="372,206,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120" Click="crearCopia_Click" Background="#FF959519" BorderBrush="#FF848F1A" FontFamily="Franklin Gothic Demi" Height="23" FontSize="14"/>
+            <TextBox Name="destinoText" Height="28" Margin="308,95,1,0" Grid.Row="1" TextWrapping="Wrap" Text="Destino" VerticalAlignment="Top"/>
+            <TextBox Name="nombreText" Height="28" Margin="308,128,1,0" Grid.Row="1" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
+            <ComboBox x:Name="grupoComboBox" Height="26" Grid.Row="1" VerticalAlignment="Center" Margin="308,161,1,54" />
+            <ComboBox x:Name="nombreComboBox" HorizontalAlignment="Left" Height="26" Margin="10,62,0,153" Grid.Row="1" VerticalAlignment="Center" Width="267"/>
+            <Button Name="destinoButton" Content="v" HorizontalAlignment="Left" Margin="537,95,0,0" Grid.Row="1" VerticalAlignment="Top" Width="15" Click="Button_Click" Height="28" Background="#FF959519" BorderBrush="#FF848F1A" FontFamily="Franklin Gothic Demi" FontSize="14"/>
+            <Button Name="origenButton" Content="v" HorizontalAlignment="Left" Margin="537,62,0,0" Grid.Row="1" VerticalAlignment="Top" Width="15" Click="Button_Click" Height="28" Background="#FF959519" BorderBrush="#FF848F1A" FontFamily="Franklin Gothic Demi" FontSize="14"/>
+        </Grid>
+    </Border>
+</Window>

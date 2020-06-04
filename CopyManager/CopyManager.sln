@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyManager", "CopyManager\CopyManager.csproj", "{F7CCB199-ABD9-48D2-9246-AEA180ABD468}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupCopyManager", "SetupCopyManager\SetupCopyManager.vdproj", "{50E87E93-1826-47BF-BC67-ED445AEC7C49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7CCB199-ABD9-48D2-9246-AEA180ABD468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CCB199-ABD9-48D2-9246-AEA180ABD468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CCB199-ABD9-48D2-9246-AEA180ABD468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CCB199-ABD9-48D2-9246-AEA180ABD468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E87E93-1826-47BF-BC67-ED445AEC7C49}.Debug|Any CPU.ActiveCfg = Debug
+		{50E87E93-1826-47BF-BC67-ED445AEC7C49}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1E89D82-7763-4D00-936B-DD0BB2321977}
+	EndGlobalSection
+EndGlobal

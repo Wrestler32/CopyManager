@@ -1,4 +1,6 @@
 # CopyManager
+# Video:
+https://www.youtube.com/watch?v=EXhTbYV1qBE
 # Importante
 La aplicación no funciona fuera de mi propio ordenador
 -
